@@ -5,10 +5,28 @@
     <title>Player1</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <style>
-      .player {width: 800px; height: 600px; box-shadow: 0 0 10px rgba(0,0,0,1);}
-      .video-container {width: 100%; height: 100%}
-      .player-button {border-style: none; cursor: pointer; color: white; background-color: transparent; width: 30px; height: 10px}
-      .player-button-panel {width: 800px; height: 20px; background-color: black}
+      .player {
+        width: 800px;
+        height: 600px;
+        box-shadow: 0 0 10px rgba(0,0,0,1);
+        display: flex;
+        flex-direction: column;
+      }
+      .video-container {
+        flex-grow: 1;
+        align-self: stretch;
+      }
+      .player-button {
+        border-style: none;
+        cursor: pointer;
+        color: white;
+        background-color: transparent;
+      }
+      .player-button-panel {
+        background-color: black;
+        flex-shrink: 0;
+        flex-grow: 0;
+      }
     </style>
   </head>
   <body>
