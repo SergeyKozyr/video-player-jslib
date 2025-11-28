@@ -5,7 +5,7 @@
 
 ---
 
-![image](https://dvmn.org/media/21.png)
+![image](https://dvmn.org/media/layout.png)
 
 ---
 
